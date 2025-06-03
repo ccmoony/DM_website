@@ -147,7 +147,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            ETEGRec is a SOTA end-to-end generative recommender system that integrates item tokenization and recommendation generation. However, its latent item tokenization process fails to take into account the high-level semantic information of user interests, which can lead to suboptimal recommendations. To address this, we introduce a brand new interest fusion mechanism that leverages user interest text embeddings to enhance the recommendation process. We propose a recommendation framework that leverages a large language model (LLM) to extract structured user interests from purchase history and item metadata. A multi-layer cross-attention mechanism fuses interest embeddings with item sequences, enhancing semantic relevance modeling. Training uses cached batch processing for consistency, while inference employs asynchronous updates for real-time performance. This approach improves recommendation accuracy with efficient user interest integration.
           </p>
         </div>
       </div>
